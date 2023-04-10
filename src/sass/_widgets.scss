@@ -1,0 +1,63 @@
+.widget{
+    height: 150px;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    -webkit-box-shadow: 1px 4px 9px 4px rgba(141,141,141,0.51); 
+    box-shadow: 1px 4px 9px 4px rgba(141,141,141,0.51); 
+
+    .left,.right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            font-weight: bold;
+            font-size: 14px;
+            color: rgb(164, 157, 157);
+        }
+
+        .counter{
+            font-size: 28px;
+            font-weight: 300;
+        }
+
+        .link{
+            color: rgb(164, 157, 157);
+            font-size: 15px;
+            border-bottom: 1px solid #c7bebe;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+        }
+
+        .icon{
+            font-size: 15px;
+            padding: 5px;
+            border-radius: 5px;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: flex-end;
+            cursor: pointer;
+        }
+    }
+}

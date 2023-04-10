@@ -1,0 +1,103 @@
+.single{
+    display: flex;
+    width: 100%;
+    
+    .singleContainer{
+        flex: 6;
+
+        .top{
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            
+    
+            .left{
+                position: relative;      
+                border-radius: 5px;    
+                flex: 1;
+                -webkit-box-shadow: 1px 4px 9px 4px rgba(185, 181, 181, 0.51); 
+                box-shadow: 1px 4px 9px 4px rgba(185, 181, 181, 0.51);
+    
+                .title{
+                    font-size: 20px;
+                    color: rgb(192, 188, 188);
+                    margin-top: 20px;
+                    padding: 10px 30px;
+                }
+    
+                .editButton{
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    font-size: 13px;
+                    color: #7451f8;
+                    padding: 5px;
+                    background-color: aliceblue;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+    
+                .item{
+                    display: flex;
+                    padding: 10px 30px;
+                    gap: 20px;
+    
+                    .itemImg{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+    
+                    .information{
+                        color: gray;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+    
+                        .name{
+                            font-size: 25px;
+                            color: #555;
+                        }
+    
+                        .detail_infor{
+                            display: flex;
+                            font-size: 14px;
+                            gap: 10px;
+    
+                            .detail_key{
+                                font-weight: bold;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .right{
+                flex: 2;
+                border-radius: 5px;
+                -webkit-box-shadow: 1px 4px 9px 4px rgba(185, 181, 181, 0.51); 
+                box-shadow: 1px 4px 9px 4px rgba(185, 181, 181, 0.51);
+            }
+        }
+        
+        .bottom{
+            padding: 20px;
+            -webkit-box-shadow: 1px 4px 9px 4px rgba(185, 181, 181, 0.51); 
+            box-shadow: 1px 4px 9px 4px rgba(185, 181, 181, 0.51);
+            margin: 10px 20px;
+    
+            border-radius: 5px;
+    
+            .title{
+                font-size: 20px;
+                color: rgb(192, 188, 188);
+                padding-bottom: 10px;
+                
+            }
+        }
+    }
+
+
+}
